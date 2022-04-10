@@ -1,0 +1,26 @@
+.main{
+  margin:50px 15px 15px;
+}
+
+.content-container{
+  margin: auto
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.live-content{
+  width: 500px;
+  height: 350px;
+  background-color: black;
+  margin:3px;
+}
+
+.filling-empty-space-childs {
+  width:500px; /*the width of the images in this example*/
+  height:0; /*Important! for the divs to collapse should they fall in a new row*/
+  margin:3px;
+}
